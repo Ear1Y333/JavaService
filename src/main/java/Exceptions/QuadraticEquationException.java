@@ -2,19 +2,19 @@ package models;
 
 public class QuadraticEquationException extends RuntimeException{
     private final String formula;
-    private final double d;
+    private final double discriminant;
 
-    public QuadraticEquationException(String message, String formula, double d) {
+    public QuadraticEquationException(String message, String formula, double discriminant) {
         super(message);
         this.formula = formula;
-        this.d = d;
+        this.discriminant = discriminant;
     }
 
     public String getFormula() {
         return formula;
     }
 
-    public double getD() {
-        return d;
+    public double getDiscriminant() {
+        return discriminant;
     }
 }
