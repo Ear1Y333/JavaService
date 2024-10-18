@@ -1,7 +1,6 @@
 package services;
 
 import javax.jws.WebMethod;
-import javax.jws.WebParam;
 import javax.jws.WebService;
 import models.QuadraticEquationResponse;
 
@@ -12,4 +11,3 @@ public interface QuadraticEquationService {
                                                    double b,
                                                    double c);
 }
-

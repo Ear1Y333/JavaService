@@ -1,4 +1,4 @@
-package models;
+package Exceptions;
 
 public class QuadraticEquationException extends RuntimeException{
     private final String formula;
